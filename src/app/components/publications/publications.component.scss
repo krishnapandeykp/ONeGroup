@@ -1,0 +1,13 @@
+.table-borderless th,
+.table-borderless td {
+  border: none;
+}
+
+.table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}

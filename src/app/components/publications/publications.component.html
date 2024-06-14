@@ -1,0 +1,24 @@
+<div *ngIf="journals.length" class="container mt-5">
+  <div class="row">
+    <div class="col-md-10">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th>Journals</th>
+            <th class="text-right">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let journal of journals">
+            <td>
+              <a [href]="journal.link" target="_blank">{{ journal.title }}</a>
+              <p>{{ journal.authors }}</p>
+              <p><i>{{ journal.journalName }}</i></p>
+            </td>
+            <td class="text-right align-top">{{ journal.year }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

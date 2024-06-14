@@ -1,0 +1,21 @@
+.navbar-nav{
+  font-size: larger;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.navbar-brand.large-screen {
+  display: block;
+}
+
+.navbar-brand.small-screen {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar-brand.large-screen {
+      display: none;
+  }
+  .navbar-brand.small-screen {
+      display: block;
+  }
+}
