@@ -108,211 +108,226 @@ export const mentor = [
 }
 ];
 
-export const coreGroup = [
-  "Ph.D",[
+export const coreGroup = {
+  "Ph.D": [
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     }
   ],
-  "Post Doc",[
+  "Post Doc": [
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     },
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
-    },
-  ],
-  "M.Tech",[
-    {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
-    },
-    {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
-    },
-    {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
-    },
-    {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
-    },
-  ],
-  "Project Assistant",[
-    {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
-    },
-    {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
-    },
-    {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     }
   ],
-  "Program Assistant",[
+  "M.Tech": [
     {
-      name:'',
-      designation:'',
-      specialRemarks:'',
-      imgSrc:''
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
+    },
+    {
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
+    },
+    {
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
+    },
+    {
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
+    }
+  ],
+  "Project Assistant": [
+    {
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
+    },
+    {
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
+    },
+    {
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
+    }
+  ],
+  "Program Assistant": [
+    {
+      name: '',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: ''
     }
   ]
-];
+};
 
-export const alumni =[
-
-]
+export const alumni = {
+  "M.Tech": [
+    {
+      name: 'John Doe',
+      designation: 'Software Engineer',
+      specialRemarks: 'Top performer in his cohort',
+      imgSrc: 'john-doe.jpg'
+    },
+    {
+      name: 'Jane Smith',
+      designation: 'Data Scientist',
+      specialRemarks: 'Published several research papers',
+      imgSrc: 'jane-smith.jpg'
+    },
+    // Add more alumni objects as needed
+  ],
+  // You can add more categories like "B.Tech", "Ph.D.", etc. if required
+};

@@ -9,7 +9,10 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 
 export const routes: Routes = [
   {path: '', component: HomepageComponent},
-  {path: 'people', component: PeopleComponent},
+  // {path: 'people', component: PeopleComponent},
+  {path: 'people/mentor',loadChildren:()=>import('./components/people/people.module').then(m=>m.PeopleModule)},
+  {path: 'people/coregroup',loadChildren:()=>import('./components/people/people.module').then(m=>m.PeopleModule)},
+  {path: 'people/alumni',loadChildren:()=>import('./components/people/people.module').then(m=>m.PeopleModule)},
   {path: 'research', component: ResearchComponent},
   {path: 'publications', component: PublicationsComponent},
   {path: 'media', component: MediaComponent},

@@ -1,12 +1,11 @@
-<div *ngIf="mentorData" class="container my-5">
+
+<!-- Mentor Section -->
+<div *ngIf="type == 'mentor'" class="container my-5">
   <div class="row">
-    <!-- Mentor Profile Section -->
     <div class="col-lg-3 col-md-3 text-center">
       <img [src]="mentorData.imgSrc" alt="mentor Image" class="img-fluid rounded-circle mb-3">
       <h3 class="mb-0">{{ mentorData.name }}</h3>
       <p class="text-muted">{{ mentorData.designation }}<br>{{ mentorData.additionalDesignation }}</p>
-
-      <!-- Researcher IDs Card -->
       <div class="card mt-3">
         <div class="card-header">
           <h4 class="mb-0">Researcher IDs</h4>
@@ -22,16 +21,13 @@
       </div>
     </div>
 
-    <!-- Education and Experience Section -->
     <div class="col-lg-8 col-md-8 offset-md-1">
-      <!-- Education Card -->
       <div class="card mb-4">
         <div class="card-header">
           <h4 class="mb-0">Education</h4>
         </div>
         <div class="card-body">
-          <div *ngFor="let edu of mentorData.education; let i = index" class="mb-1"
-               [ngClass]="{'bg-light': i % 2 !== 0}">
+          <div *ngFor="let edu of mentorData.education; let i = index" class="mb-1" [ngClass]="{'bg-light': i % 2 !== 0}">
             <div class="row p-2">
               <div class="col-md-3"><b>{{ edu.degree }}</b></div>
               <div class="col-md-3">{{ edu.field }}</div>
@@ -42,14 +38,12 @@
         </div>
       </div>
 
-      <!-- Experience Card -->
       <div class="card mb-4">
         <div class="card-header">
           <h4 class="mb-0">Experience</h4>
         </div>
         <div class="card-body">
-          <div *ngFor="let exp of mentorData.experience; let i = index" class="mb-1"
-               [ngClass]="{'bg-light': i % 2 !== 0}">
+          <div *ngFor="let exp of mentorData.experience; let i = index" class="mb-1" [ngClass]="{'bg-light': i % 2 !== 0}">
             <div class="row p-2">
               <div class="col-md-4"><b>{{ exp.title }}</b></div>
               <div class="col-md-4">{{ exp.institution }}</div>
@@ -59,7 +53,6 @@
         </div>
       </div>
 
-      <!-- Contact Card -->
       <div class="card">
         <div class="card-header">
           <h4 class="mb-0">Contact</h4>
@@ -75,4 +68,28 @@
     </div>
   </div>
 </div>
+
+<!-- Core Group Section -->
+<div *ngIf="currentData" class="container">
+  <div *ngFor="let group of currentData | keyvalue" class="card mb-4">
+    <div class="card-header">
+      {{ group.key }}
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div *ngFor="let member of group.value" class="col-md-4 col-sm-12 mb-3">
+          <div class="card">
+            <img [src]="member.imgSrc" class="card-img-top" alt="Member Image">
+            <div class="card-body">
+              <h5 class="card-title">{{ member.name }}</h5>
+              <p class="card-text"><strong>Designation:</strong> {{ member.designation }}</p>
+              <p class="card-text">{{ member.specialRemarks }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
