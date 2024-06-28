@@ -6,6 +6,7 @@ import { PublicationsComponent } from './components/publications/publications.co
 import { MediaComponent } from './components/media/media.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { NewsComponent } from './components/news/news.component';
 
 export const routes: Routes = [
   {path: '', component: HomepageComponent},
@@ -17,6 +18,7 @@ export const routes: Routes = [
   {path: 'publications', component: PublicationsComponent},
   {path: 'media', component: MediaComponent},
   {path: 'gallery', component: GalleryComponent},
+  {path: 'news', component: NewsComponent},
   {path: '**', component: PageNotFoundComponent}
 ];
 

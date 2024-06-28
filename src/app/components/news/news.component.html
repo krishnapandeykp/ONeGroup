@@ -1,0 +1,25 @@
+<div class="container my-3 bg-light">
+  <h2 class="p-md-5 text-center" style="text-decoration: underline">Group Updates</h2>
+
+  <div class="row">
+    <div class="col-md-11">
+      <ul>
+        <li *ngFor="let monthYear of newsDataArray">
+          <h4>{{ monthYear.key }}</h4>
+          <ul>
+            <li *ngFor="let newsItem of monthYear.value">
+              <ng-container *ngIf="newsItem.link; else noLink">
+                <a [href]="newsItem.link" style="text-decoration: none;">
+                  {{ newsItem.title }}
+                </a>
+              </ng-container>
+              <ng-template #noLink>
+                <span>{{ newsItem.title }}</span>
+              </ng-template>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

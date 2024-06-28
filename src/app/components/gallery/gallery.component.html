@@ -1,1 +1,14 @@
-<p>gallery works!</p>
+<div class="container-fluid p-5" style="background-color: #005058;">
+  <h1 class="text-center text-white mb-5">Gallery</h1>
+  <div class="gallery">
+    <div *ngFor="let image of gallery" class="gallery-item">
+      <img src="{{ image }}" (click)="onImageClick(image)" class="img-thumbnail">
+    </div>
+  </div>
+
+  <div *ngIf="selectedImage" class="overlay" (click)="onBackgroundClick()">
+    <div class="overlay-content">
+      <img [src]="selectedImage" class="zoomed-image">
+    </div>
+  </div>
+</div>

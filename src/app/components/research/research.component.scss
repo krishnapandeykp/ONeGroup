@@ -1,0 +1,5 @@
+.carousel-img-fit {
+  object-fit: contain; /* Or use 'cover' if you want to fill the space entirely */
+  width: 100%; /* Ensure image takes up full width */
+  height: 100%; /* Match carousel item height */
+}

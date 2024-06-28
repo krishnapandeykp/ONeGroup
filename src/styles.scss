@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Primary font */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif; /* Heading font */
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-toggle,
+.navbar-nav .dropdown-item {
+    color: white !important; /* Use !important to override Bootstrap defaults */
+}
+
+.dropdown-menu {
+    background-color: #c0a259;
+}
+.dropdown-item:hover {
+    background-color: #005058;
+}
+@media (hover: hover) { /* For devices that support hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}

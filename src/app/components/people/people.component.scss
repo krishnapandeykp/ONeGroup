@@ -5,3 +5,56 @@
 .bg-dark {
   background-color: #3f556d; /* Dark background color */
 }
+// .container {
+//   max-width: 100%;
+// }
+.card-header {
+ background-color: #005058;
+ color: white;
+}
+.member-card {
+  flex: 1 1 calc(20% - 10px); /* Adjust the percentage based on how many cards you want in a row */
+  margin: 5px;
+}
+
+.card-img-top {
+  height: 90%;
+  max-width: 100%; /* Ensure the image fits within the card width */
+  object-fit: cover; /* Adjust the image to cover the entire area without stretching */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .member-card {
+    flex: 1 1 calc(25% - 10px); /* 4 cards per row */
+  }
+}
+
+@media (max-width: 992px) {
+  .member-card {
+    flex: 1 1 calc(33.33% - 10px); /* 3 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .member-card {
+    flex: 1 1 calc(50% - 10px); /* 2 cards per row */
+  }
+}
+
+// @media (max-width: 576px) {
+//   .member-card {
+//     flex: 1 1 100%; /* 1 card per row */
+//   }
+// }

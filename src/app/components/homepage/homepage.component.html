@@ -1,1 +1,83 @@
-<p>homepage works!</p>
+<div class="container-fluid" style="background-color: #005058;">
+  <div class="row">
+    <div class="col-md-4 ps-md-5 ms-md-5 order-md-1 order-2 text-white" style="text-align: justify; align-content: center; ">
+      <p>Organic Nano electronics (ONe) Group is dedicated to cutting-edge interdisciplinary research in the expansive realm of organic and polymer-based devices. Our endeavors encompass a wide spectrum of activities, from the synthesis of high-performance materials such as conducting polymers, nano-composites, and nano-structured materials, to a comprehensive exploration of their fundamental properties. These materials are meticulously examined with a view to their potential applications in cutting-edge fields like Organic Photovoltaics (OPVs), Organic Field-Effect Transistors (OFETs), Sensors, and Actuators.</p>
+    </div>
+    <div class="col-md-6 order-md-2 p-5 order-1 offset-md-1">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <!-- Generate indicators dynamically -->
+          <button *ngFor="let slide of slides; let i = index"
+                  type="button"
+                  [attr.data-bs-target]="'#carouselExample'"
+                  [attr.data-bs-slide-to]="i"
+                  [class.active]="i === 0"
+                  [attr.aria-label]="'Slide ' + (i + 1)"
+                  [attr.aria-current]="i === 0 ? 'true' : null">
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <!-- Generate carousel items dynamically -->
+          <div *ngFor="let slide of slides; let i = index" class="carousel-item" [class.active]="i === 0">
+            <img [src]="slide" class="d-block w-100" [alt]="'Slide ' + (i + 1)">
+          </div>
+        </div>
+        <!-- Carousel navigation buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row p-3 my-5 bg-light" style="justify-content: center;">
+
+  <div class="col-md-6 me-5 ps-5">
+    <h1 class="mb-3" style="text-align: center;">About Us</h1>
+    <p><b>Our Work:</b> Within the realm of organic electronics, our collective efforts encompass the intricate synthesis of conducting polymers, nanocomposites, and nano-structured materials. These materials find their application in a wide array of organic electronic devices, including organic photovoltaics, sensors, field-effect transistors, and electromagnetic interference (EMI) shielding solutions.<br><br>
+
+   <b>Sensors:</b> We specialize in the design, synthesis, and fabrication of molecules tailored for sensor applications. These sensors are developed to detect a diverse range of elements and compounds, such as volatile organic compounds (VOCs), heavy metal ions, nitrates, and various bio-organisms.<br><br>
+
+    <b>Molecular Design and Synthesis:</b> Our team is deeply engaged in the field of molecular design and synthesis. We meticulously engineer molecules with precisely tuned band-gaps to fulfill a variety of organic electronic applications. These applications include photovoltaics, field-effect transistors, sensors, and EMI shielding technologies.<br><br>
+
+    <b>Device Architecturing:</b> We specialize in various aspects of device architecture. Our skill set includes nano-structuring techniques like electrospinning and non-lithography, ternary blending, and the development of organic-inorganic hybrid materials. We also explore the fascinating world of up-conversion materials and undertake large-area studies focused on understanding the structure-property relationship, charge transport properties, electrode-semiconductor interfaces, device failure analysis, and aging mechanisms.<br><br>
+
+    <b>Packaging:</b> We are dedicated to designing and synthesizing ultra-low permeable monolithic encapsulations. Additionally, we are involved in the development of cutting-edge gas permeability measurement systems to ensure the longevity and performance of our devices.</p></div>
+  <div class="col-md-4 mt-5 p-3">
+    <div class="card pe-2">
+      <h4 class="card-title text-center my-3 fw-bold" style="text-decoration: underline;">Group Updates</h4>
+      <div class="card-body">
+        <ul>
+          <li *ngFor="let monthYear of newsDataArray | slice:0:3">
+            <h5>{{ monthYear.key }}</h5>
+            <ul>
+              <li *ngFor="let newsItem of monthYear.value">
+                <ng-container *ngIf="newsItem.link; else noLink">
+                  <a [href]="newsItem.link" style="color: blue; text-decoration: none;">
+                    {{ newsItem.title }}
+                  </a>
+                </ng-container>
+                <ng-template #noLink>
+                  <span>{{ newsItem.title }}</span>
+                </ng-template>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <a href="/news" class="btn btn-primary float-end" style="color: rgb(255, 255, 255); text-decoration: none;">
+          More
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

@@ -1,0 +1,64 @@
+export const slides = [
+  "../assets/images/carousel_research/ashutosh.jpg",
+  "../assets/images/carousel_research/bidishanath.jpg",
+  "../assets/images/carousel_research/jinujoji.jpg",
+  "../assets/images/carousel_research/pavithra1.jpg",
+  "../assets/images/carousel_research/pavithra2.jpg",
+  "../assets/images/carousel_research/pavithra3.jpg",
+  "../assets/images/carousel_research/shivangi.jpg",
+  "../assets/images/carousel_research/shweta.jpg",
+  "../assets/images/carousel_research/simranjeet.jpg",
+  "../assets/images/carousel_research/varun_nano.jpg",
+  "../assets/images/carousel_research/varun_package.jpg"
+];
+
+export const sponsorsLogo = [
+  {
+    name:'IISc',
+    imgSrc:'../assets/images/funding_agency/iisc.png'
+  },
+  {
+    name:'DST',
+    imgSrc:'../assets/images/funding_agency/dst.png'
+  },
+  {
+    name:'CSIR',
+    imgSrc:'../assets/images/funding_agency/csir.png'
+  },
+  {
+    name:'CEFIPRA',
+    imgSrc:'../assets/images/funding_agency/cefipra.png'
+  },
+  {
+    name:'IUSSTF',
+    imgSrc:'../assets/images/funding_agency/iusstf.png'
+  },
+  {
+    name:'ADA',
+    imgSrc:'../assets/images/funding_agency/ada.png'
+  },
+  {
+    name:'ARD',
+    imgSrc:'../assets/images/funding_agency/ardb.png'
+  },
+  {
+    name:'AISRF',
+    imgSrc:'../assets/images/funding_agency/aisrf.png'
+  },
+  {
+    name:'BOEING',
+    imgSrc:'../assets/images/funding_agency/boeing.png'
+  },
+  {
+    name:'BHEL',
+    imgSrc:'../assets/images/funding_agency/bhel.png'
+  },
+  {
+    name:'KIST',
+    imgSrc:'../assets/images/funding_agency/kist.png'
+  },
+  {
+    name:'UNILEVER',
+    imgSrc:'../assets/images/funding_agency/unilever.png'
+  },
+];

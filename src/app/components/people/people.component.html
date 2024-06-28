@@ -71,19 +71,19 @@
 
 <!-- Core Group Section -->
 <div *ngIf="currentData" class="container">
-  <div *ngFor="let group of currentData | keyvalue" class="card mb-4">
-    <div class="card-header">
-      {{ group.key }}
+  <div *ngFor="let key of orderedKeys" class="card mb-5 p-3">
+    <div class="card-header text-white" style="text-align: center; font-weight: bolder; font-size: larger; background-color: rgb(76, 124, 124);">
+      {{ key }}
     </div>
-    <div class="card-body">
-      <div class="row">
-        <div *ngFor="let member of group.value" class="col-md-4 col-sm-12 mb-3">
-          <div class="card">
-            <img [src]="member.imgSrc" class="card-img-top" alt="Member Image">
-            <div class="card-body">
-              <h5 class="card-title">{{ member.name }}</h5>
-              <p class="card-text"><strong>Designation:</strong> {{ member.designation }}</p>
-              <p class="card-text">{{ member.specialRemarks }}</p>
+    <div class="card-body1">
+      <div class="d-flex flex-wrap justify-content-start">
+        <div *ngFor="let member of currentData[key]" class="member-card mb-3">
+          <div class="card h-100">
+            <img [src]="member.imgSrc" class="card-img-top p-2" alt="Member Image">
+            <div class="card-body1">
+              <h5 class="card-title p-2">{{ member.name }}</h5>
+              <!-- <p class="card-text"><strong>Designation:</strong> {{ member.designation }}</p> -->
+              <p class="card-text p-2 text-center">{{ member.specialRemarks }}</p>
             </div>
           </div>
         </div>
@@ -91,5 +91,7 @@
     </div>
   </div>
 </div>
+
+
 
 
