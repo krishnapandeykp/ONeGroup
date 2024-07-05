@@ -11,7 +11,7 @@ export const media = [
   "../assets/images/media/10.jpg",
   "../assets/images/media/11.jpg",
   "../assets/images/gallery/research/01.jpg",
-  "../assets/images/gallery/research/02.mp4",
+  // "../assets/images/gallery/research/02.mp4",
   "../assets/images/gallery/research/03.jpg",
   "../assets/images/gallery/research/04.jpg",
   "../assets/images/gallery/research/05.jpg",

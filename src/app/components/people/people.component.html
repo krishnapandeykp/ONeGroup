@@ -1,8 +1,7 @@
-
 <!-- Mentor Section -->
-<div *ngIf="type == 'mentor'" class="container my-5">
-  <div class="row">
-    <div class="col-lg-3 col-md-3 text-center">
+<div *ngIf="type == 'mentor'" class="container-fluid my-5">
+  <div class="row mx-md-5">
+    <div class="col-md-3 text-center">
       <img [src]="mentorData.imgSrc" alt="mentor Image" class="img-fluid rounded-circle mb-3">
       <h3 class="mb-0">{{ mentorData.name }}</h3>
       <p class="text-muted">{{ mentorData.designation }}<br>{{ mentorData.additionalDesignation }}</p>
@@ -10,10 +9,11 @@
         <div class="card-header">
           <h4 class="mb-0">Researcher IDs</h4>
         </div>
-        <div class="card-body">
+        <div class="card-body" style="overflow: hidden;">
           <div *ngFor="let id of mentorData.researcherId">
-            <div *ngIf="id.organisation && id.idValue">
-              <b>{{ id.organisation }}: </b>
+            <div *ngIf="id.organisation && id.idValue" class="d-flex align-items-center">
+              <img *ngIf="id.favicon" [src]="id.favicon" alt="{{ id.organisation }} Favicon" class="favicon-img me-2" />
+              <b>{{ id.organisation }}: &nbsp;</b>
               <a [href]="id.link" target="_blank">{{ id.idValue }}</a>
             </div>
           </div>
@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="col-lg-8 col-md-8 offset-md-1">
+    <div class="col-md-8 offset-md-1">
       <div class="card mb-4">
         <div class="card-header">
           <h4 class="mb-0">Education</h4>
@@ -29,9 +29,9 @@
         <div class="card-body">
           <div *ngFor="let edu of mentorData.education; let i = index" class="mb-1" [ngClass]="{'bg-light': i % 2 !== 0}">
             <div class="row p-2">
-              <div class="col-md-3"><b>{{ edu.degree }}</b></div>
-              <div class="col-md-3">{{ edu.field }}</div>
-              <div class="col-md-3 text-md-center">{{ edu.year }}</div>
+              <div class="col-md-2"><b>{{ edu.degree }}</b></div>
+              <div class="col-md-5">{{ edu.field }}</div>
+              <div class="col-md-2 text-md-center">{{ edu.year }}</div>
               <div class="col-md-3">{{ edu.location }}</div>
             </div>
           </div>
@@ -45,8 +45,8 @@
         <div class="card-body">
           <div *ngFor="let exp of mentorData.experience; let i = index" class="mb-1" [ngClass]="{'bg-light': i % 2 !== 0}">
             <div class="row p-2">
-              <div class="col-md-4"><b>{{ exp.title }}</b></div>
-              <div class="col-md-4">{{ exp.institution }}</div>
+              <div class="col-md-3"><b>{{ exp.title }}</b></div>
+              <div class="col-md-5">{{ exp.institution }}</div>
               <div class="col-md-4 text-md-center">{{ exp.duration }}</div>
             </div>
           </div>
@@ -69,10 +69,10 @@
   </div>
 </div>
 
-<!-- Core Group Section -->
+<!-- Core Group and Alumni Section -->
 <div *ngIf="currentData" class="container">
   <div *ngFor="let key of orderedKeys" class="card mb-5 p-3">
-    <div class="card-header text-white" style="text-align: center; font-weight: bolder; font-size: larger; background-color: rgb(76, 124, 124);">
+    <div class="card-header text-white mb-2" style="text-align: center; font-weight: bolder; font-size: larger;">
       {{ key }}
     </div>
     <div class="card-body1">

@@ -6,44 +6,52 @@ export const mentor = [
   imgSrc: "../assets/images/people/praveen.png",
   "researcherId":[
     {
-      "organisation": "Orcid Id",
+      "organisation": "Orcid",
       "idValue":"0000-0003-1880-5889",
-      link: 'http://www.orcid.org/0000-0003-1880-5889'
+      link: 'http://www.orcid.org/0000-0003-1880-5889',
+      favicon: '../assets/images/ResearchFavicon/Orcid.png'
     },
     {
-      "organisation": "Scopus Id",
+      "organisation": "Scopus",
       "idValue":"7005412074",
-      link: 'http://www.scopus.com/authid/detail.url?authorId=7005412074'
+      link: 'http://www.scopus.com/authid/detail.url?authorId=7005412074',
+      favicon: '../assets/images/ResearchFavicon/Scopus.png'
     },
     {
-      "organisation": "Researcher Id",
+      "organisation": "Researcher",
       "idValue":"AAJ-1678-2020",
-      link: 'http://www.researcherid.com/rid/AAJ-1678-2020'
+      link: 'http://www.researcherid.com/rid/AAJ-1678-2020',
+      favicon: '../assets/images/ResearchFavicon/Researcher.jpg'
     },
     {
-      "organisation": "Google Scholar Id",
+      "organisation": "Google Scholar",
       "idValue":"C2GFGVsAAAAJ",
-      link: 'http://scholar.google.co.in/citations?user=C2GFGVsAAAAJ'
+      link: 'http://scholar.google.co.in/citations?user=C2GFGVsAAAAJ',
+      favicon: '../assets/images/ResearchFavicon/GoogleScholar.png'
     },
     {
       "organisation": "Semantic Scholar",
       "idValue":"2047789",
-      link: 'https://www.semanticscholar.org/author/Praveen-C-Ramamurthy/2047789?utm_content=AuthorProfile&utm_source=alert_email&utm_campaign=AlertEmails_WEEKLY&utm_term=AuthorCitation&utm_medium=35231301'
+      link: 'https://www.semanticscholar.org/author/Praveen-C-Ramamurthy/2047789?utm_content=AuthorProfile&utm_source=alert_email&utm_campaign=AlertEmails_WEEKLY&utm_term=AuthorCitation&utm_medium=35231301',
+      favicon: '../assets/images/ResearchFavicon/SemanticScholarSS.png'
     },
     {
       "organisation": "Academia",
       "idValue":"Praveen Ramamurthy",
-      link: 'https://iisc.academia.edu/PraveenRamamurthy'
+      link: 'https://iisc.academia.edu/PraveenRamamurthy',
+      favicon: '../assets/images/ResearchFavicon/Academia.ico'
     },
     {
       "organisation": "Web of Science",
       "idValue":"HMD-6568-2023",
-      link: 'https://www.webofscience.com/wos/author/record/HMD-6568-2023'
+      link: 'https://www.webofscience.com/wos/author/record/HMD-6568-2023',
+      favicon: '../assets/images/ResearchFavicon/WoScience.png'
     },
     {
       "organisation": "ResearchGate",
       "idValue":"Praveen Ramamurthy",
-      link: 'https://www.researchgate.net/profile/Praveen-Ramamurthy-2'
+      link: 'https://www.researchgate.net/profile/Praveen-Ramamurthy-2',
+      favicon: '../assets/images/ResearchFavicon/ResearchGate.png'
     }
   ],
   "education": [

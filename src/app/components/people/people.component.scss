@@ -16,6 +16,10 @@
   flex: 1 1 calc(20% - 10px); /* Adjust the percentage based on how many cards you want in a row */
   margin: 5px;
 }
+.favicon-img {
+  width: 16px; /* Adjust the size as needed */
+  height: 16px;
+}
 
 .card-img-top {
   height: 90%;

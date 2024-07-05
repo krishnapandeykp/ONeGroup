@@ -19,7 +19,7 @@ interface Publication {
 })
 export class PublicationsComponent {
   currentTab: keyof typeof this.allPublications = 'journals'; // Keyof ensures type safety
-  publicationTypes = ['journals', 'bookChapter', 'conferences', 'books', 'patents'] as const;
+  publicationTypes = ['journals', 'conferences', 'bookChapter', 'books', 'patents'] as const;
 
   allPublications = {
     journals, bookChapter, conferences, books, patents
