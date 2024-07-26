@@ -23,7 +23,7 @@
                   <a *ngIf="publication.link" [href]="publication.link" target="_blank" class="link-primary">{{ publication.title }}</a>
                   <span *ngIf="!publication.link">{{ publication.title }}</span>
                   <p>{{ publication.authors }}</p>
-                  <p><i>{{ publication.publisherName }}</i></p>
+                  <p><i>{{ publication.publisherName }} ({{ publication.year }})</i></p>
                 </td>
                 <td class="text-right align-top">{{ publication.year }}</td>
               </tr>

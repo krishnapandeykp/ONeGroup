@@ -20,5 +20,6 @@ export const media = [
   "../assets/images/gallery/research/08.jpg",
   "../assets/images/gallery/research/09.jpg",
   "../assets/images/gallery/research/10.jpg",
-  "../assets/images/gallery/research/11.jpg"
+  "../assets/images/gallery/research/11.jpg",
+  "../assets/images/gallery/research/12.jpg"
 ]

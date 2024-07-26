@@ -13,19 +13,19 @@
  color: white;
 }
 .member-card {
-  flex: 1 1 calc(20% - 10px); /* Adjust the percentage based on how many cards you want in a row */
-  margin: 5px;
+  // flex: 1 1 calc(20% - 10px); /* Adjust the percentage based on how many cards you want in a row */
+  margin: 10px;
 }
 .favicon-img {
   width: 16px; /* Adjust the size as needed */
   height: 16px;
 }
 
-.card-img-top {
-  height: 90%;
-  max-width: 100%; /* Ensure the image fits within the card width */
-  object-fit: cover; /* Adjust the image to cover the entire area without stretching */
-}
+// .card-img-top {
+//   height: 250px;
+//   max-width: 100%; /* Ensure the image fits within the card width */
+//   object-fit: cover; /* Adjust the image to cover the entire area without stretching */
+// }
 
 .card {
   display: flex;
@@ -39,26 +39,53 @@
   align-items: center;
 }
 
-@media (max-width: 1200px) {
-  .member-card {
-    flex: 1 1 calc(25% - 10px); /* 4 cards per row */
-  }
-}
+// @media (max-width: 1200px) {
+//   .member-card {
+//     flex: 1 1 calc(25% - 10px); /* 4 cards per row */
+//     max-width: 50%;
+//     margin: 5px;
+//   }
+// }
 
-@media (max-width: 992px) {
-  .member-card {
-    flex: 1 1 calc(33.33% - 10px); /* 3 cards per row */
-  }
-}
+// @media (max-width: 992px) {
+//   .member-card {
+//     flex: 1 1 calc(33.33% - 10px); /* 3 cards per row */
+//     max-width: 50%;
+//     margin: 5px;
+//   }
+// }
 
-@media (max-width: 768px) {
-  .member-card {
-    flex: 1 1 calc(50% - 10px); /* 2 cards per row */
-  }
-}
+// @media (max-width: 768px) {
+//   .member-card {
+//     flex: 1 1 calc(50% - 10px); /* 2 cards per row */
+//     max-width: 50%;
+//     margin: 5px;
+//   }
+// }
 
 // @media (max-width: 576px) {
 //   .member-card {
 //     flex: 1 1 100%; /* 1 card per row */
 //   }
 // }
+/* Adjust column sizes for specific breakpoints */
+@media (max-width: 1220px) {
+  .member-card {
+    flex: 0 0 25%;  /* 4 cards per row */
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .member-card {
+    flex: 0 0 33.3333%; /* 3 cards per row */
+    max-width: 33.3333%;
+  }
+}
+
+@media (max-width: 768px) {
+  .member-card {
+    flex: 0 0 50%;   /* 2 cards per row */
+    max-width: 40%;
+  }
+}

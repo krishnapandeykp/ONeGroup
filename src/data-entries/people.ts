@@ -71,13 +71,13 @@ export const mentor = [
       "degree": "M. Sc",
       "field": "Polymer Science",
       "year": "1995",
-      "location": "Mysore, India"
+      "location": "Mysore, INDIA"
     },
     {
       "degree": "B. Sc",
       "field": "Physics, Chemistry, Mathematics",
       "year": "1993",
-      "location": "Mysore, India"
+      "location": "Mysore, INDIA"
     }
   ],
   "experience": [
@@ -108,12 +108,12 @@ export const mentor = [
     },
     {
       "title": "Technical Executive",
-      "institution": "Shin Ho Petrochemicals (India) Ltd., Bombay, India",
+      "institution": "Shin Ho Petrochemicals (India) Ltd., Bombay, INDIA",
       "duration": "Jan 1996 - June 1998"
     },
     {
       "title": "Development Engineer",
-      "institution": "Skip Plastics Ltd., Bombay, India",
+      "institution": "Skip Plastics Ltd., Bombay, INDIA",
       "duration": "Aug 1995 - Dec 1995"
     }
   ],
@@ -128,13 +128,7 @@ export const mentor = [
 export const coreGroup = {
   "Ph.D": [
     {
-      name: 'Shweta Shekar',
-      designation: '',
-      specialRemarks: '',
-      imgSrc: '../assets/images/people/current/ShwetaShekar.jpg'
-    },
-    {
-      name: 'Sandeep',
+      name: 'Sandeep B. S',
       designation: '',
       specialRemarks: '',
       imgSrc: '../assets/images/people/current/Sandeep.jpg'
@@ -146,7 +140,7 @@ export const coreGroup = {
       imgSrc: '../assets/images/people/current/JinuJoji.jpg'
     },
     {
-      name: 'Ankit',
+      name: 'Ankit Malik',
       designation: '',
       specialRemarks: '',
       imgSrc: '../assets/images/people/current/Ankit.jpg'
@@ -188,10 +182,28 @@ export const coreGroup = {
       imgSrc: '../assets/images/people/current/YashBajpai.jpg'
     },
     {
-      name: 'Varun Adiga',
+      name: 'Swathi Arendra',
       designation: '',
       specialRemarks: '',
-      imgSrc: '../assets/images/people/current/Varun.jpg'
+      imgSrc: '../assets/images/people/current/Swathi_Arendra.jpg'
+    },
+    {
+      name: 'Sarbajit Manna',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: '../assets/images/people/current/Sarbajit_Manna.jpg'
+    },
+    {
+      name: 'Jithunlal S',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: '../assets/images/people/current/Jithunlal_S.jpg'
+    },
+    {
+      name: 'Gayathri',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: '../assets/images/people/current/Gayathri.jpeg'
     },
     {
       name: 'Bidisha Nath',
@@ -224,13 +236,13 @@ export const coreGroup = {
       imgSrc: '../assets/images/people/current/RadhikaVarshney.jpg'
     },
     {
-      name: 'Jey Kishan',
+      name: 'Jeykishan Kumar',
       designation: '',
       specialRemarks: '',
       imgSrc: '../assets/images/people/current/JeyKishan.jpg'
     },
     {
-      name: 'Chandana',
+      name: 'Gadadasu Chandana ',
       designation: '',
       specialRemarks: '',
       imgSrc: '../assets/images/people/current/Chandana.jpg'
@@ -242,83 +254,77 @@ export const coreGroup = {
       imgSrc: '../assets/images/people/current/Kelvin.jpg'
     },
     {
-      name: 'Surafel Shiferaw Legese',
+      name: 'Endurance Eguavoen',
       designation: '',
       specialRemarks: '(International Student)',
-      imgSrc: '../assets/images/people/current/Surafel.jpg'
+      imgSrc: '../assets/images/people/current/Endurance_Eguavoen.jpg'
     }
   ],
   "Post Doc": [
     {
-      name: 'Dr. TS Sunil Kumar Naik',
-      designation: '',
-      specialRemarks: 'IOE Post Doc',
-      imgSrc: '../assets/images/people/current/Sunil.jpg'
-    },
-    {
       name: 'Dr. Sushant Kumar Behera',
       designation: '',
-      specialRemarks: 'Kothari Post Doc',
+      specialRemarks: 'Dr. D.S. Kothari Postdoctoral fellow',
       imgSrc: '../assets/images/people/current/SushantKumar.jpg'
     },
     {
       name: 'Dr. Simranjeet Singh',
       designation: '',
-      specialRemarks: 'IOE Post Doc',
+      specialRemarks: 'DBT – Research Associate Fellow',
       imgSrc: '../assets/images/people/current/SimranjeetSingh.jpg'
     },
-    {
-      name: 'Dr. Chidambaram Thamaraiselvan',
-      designation: '',
-      specialRemarks: 'DST Inspire Faculty',
-      imgSrc: '../assets/images/people/current/Chidambaram.jpg'
-    }
   ],
   "M.Tech & BS": [
     {
-      name: 'Vikram Reddy',
+      name: 'Parth Sudhir Dingre',
       designation: '',
       specialRemarks: 'M.Tech',
-      imgSrc: '../assets/images/people/current/VikramReddy.jpg'
+      imgSrc: '../assets/images/people/current/Parth_Sudhir_Dingre.jpeg'
     },
     {
-      name: 'Tharun Kumar',
-      designation: '',
-      specialRemarks: 'M.Tech',
-      imgSrc: '../assets/images/people/current/TharunKumar.jpg'
-    },
-    {
-      name: 'Mahima',
+      name: 'Lakshya Sankhla',
       designation: '',
       specialRemarks: 'BS',
-      imgSrc: '../assets/images/people/current/Mahima.jpg'
-    },
-    {
-      name: 'Adithya',
-      designation: '',
-      specialRemarks: 'BS',
-      imgSrc: '../assets/images/people/current/Adithya.jpg'
+      imgSrc: '../assets/images/people/img_avatar.png'
     }
   ],
-  "Project Assistant": [
-    {
-      name: 'Kumar MP',
-      designation: '',
-      specialRemarks: '',
-      imgSrc: '../assets/images/people/current/Kumar.jpg'
-    },
+  "Research Associate & Project Associate": [
     {
       name: 'PS Raghavan',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'Senior Project Associate',
       imgSrc: '../assets/images/people/current/Raghavan.jpg'
     },
     {
-      name: 'Kumaran Gurumurthy',
+      name: 'Dr. Retinder Kour',
       designation: '',
-      specialRemarks: '',
-      imgSrc: '../assets/images/people/img_avatar.png'
-    }
+      specialRemarks: 'Research Associate III',
+      imgSrc: '../assets/images/people/current/retinder.jpg'
+    },
+    {
+      name: 'Dr. Suyog Gupta',
+      designation: '',
+      specialRemarks: 'Research Associate I',
+      imgSrc: '../assets/images/people/current/Dr.Suyog_Gupta.jpg'
+    },
+    {
+      name: 'Dr. TS Sunil Kumar Naik',
+      designation: '',
+      specialRemarks: 'Senior Project Associate',
+      imgSrc: '../assets/images/people/current/Sunil.jpg'
+    },
+    {
+      name: 'Dr. Varun Adiga',
+      designation: '',
+      specialRemarks: 'Project Assocaite II',
+      imgSrc: '../assets/images/people/current/Varun.jpg'
+    },
+    {
+      name: 'Dr. Nagaraja O',
+      designation: '',
+      specialRemarks: 'Senior Project Assocaite',
+      imgSrc: '../assets/images/people/current/NAGARAJA _O.jpg'
+    },
   ],
   "Program Assistant": [
     {
@@ -331,7 +337,7 @@ export const coreGroup = {
 };
 
 export const alumni = {
-  "Miscellaneous": [
+  "PhD Alumni": [
     {
       name: 'Dr. Swathi S K',
       designation: '',
@@ -341,7 +347,7 @@ export const alumni = {
     {
       name: 'Dr. Ranjith K',
       designation: '',
-      specialRemarks: 'Post Doc at Iowa State University, USA',
+      specialRemarks: 'Intel Corporation, USA',
       imgSrc: '../assets/images/people/alumni/ranjith.jpg'
     },
     {
@@ -353,13 +359,13 @@ export const alumni = {
     {
       name: 'Dr. Alex Joseph',
       designation: '',
-      specialRemarks: 'Assistant Professor, Newman College Thodupuzha, Keral',
+      specialRemarks: 'Assistant Professor Newman college, Thodupuzha, Kerala',
       imgSrc: '../assets/images/people/alumni/alex.jpg'
     },
     {
       name: 'Dr. Sindhu Seethamraju',
       designation: '',
-      specialRemarks: 'Materials Scientist in Nunam Company',
+      specialRemarks: 'Engineering Lead,  ATCO Industries, Inc., TN',
       imgSrc: '../assets/images/people/alumni/sindhu.jpg'
     },
     {
@@ -383,7 +389,7 @@ export const alumni = {
     {
       name: 'Dr. Arun Dhumal Rao',
       designation: '',
-      specialRemarks: 'Startup Company in Bangalore',
+      specialRemarks: 'Co-Founder, Revaron Private Limited',
       imgSrc: '../assets/images/people/alumni/arun.jpg'
     },
     {
@@ -401,7 +407,7 @@ export const alumni = {
     {
       name: 'Dr. Jagdish A K',
       designation: '',
-      specialRemarks: 'Startup Company in Madras',
+      specialRemarks: 'Head of R&D at Adiuvo Diagnostics Pvt. Ltd., Chennai. ',
       imgSrc: '../assets/images/people/alumni/jagdish.jpg'
     },
     {
@@ -413,7 +419,7 @@ export const alumni = {
     {
       name: 'Dr. N. V. Vinila',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'Post doctoral researcher Momentive, Bengaluru',
       imgSrc: '../assets/images/people/alumni/vinila.jpg'
     },
     {
@@ -425,23 +431,35 @@ export const alumni = {
     {
       name: 'Dr. Fiyanshu Kaka',
       designation: '',
-      specialRemarks: 'Assistant Professor, SRM Institute of Science and Technology, Tamil Nadu',
+      specialRemarks: 'Assistant Professor, Defence Institute of Advanced Technology',
       imgSrc: '../assets/images/people/alumni/fiyanshu.jpg'
     },
     {
-      name: 'Angappan Muthuraj',
+      name: 'Dr. Angappan Muthuraj',
       designation: '',
       specialRemarks: 'F Scientist, Aeronautical Development Agency',
       imgSrc: '../assets/images/people/alumni/angappan.jpg'
     },
     {
-      name: 'Amith G Anil',
+      name: 'Dr. Amith G Anil',
       designation: '',
       specialRemarks: 'Post Doc Researcher Momentive, Bengaluru',
       imgSrc: '../assets/images/people/alumni/amith.jpg'
-    }
+    },
+    {
+      name: 'Dr. Shweta Shekar',
+      designation: '',
+      specialRemarks: 'Product Development Associate ',
+      imgSrc: '../assets/images/people/alumni/ShwetaShekar.jpg'
+    },
+    {
+      name: 'Dr. Varun Adiga',
+      designation: '',
+      specialRemarks: 'Project Assocaite II in IISc',
+      imgSrc: '../assets/images/people/current/Varun.jpg'
+    },
   ],
-  "Research Associates": [
+  "Research Associate & Project Associate Alumni": [
     {
       name: 'Dr. Aashish Roy',
       designation: '',
@@ -509,7 +527,7 @@ export const alumni = {
       imgSrc: '../assets/images/people/alumni/nimisha.jpg'
     },
     {
-      name: 'Vempuluru Madhavi',
+      name: 'Dr. Vempuluru Madhavi',
       designation: '',
       specialRemarks: 'DST Women Scientist in IISc',
       imgSrc: '../assets/images/people/alumni/vempuluru.jpg'
@@ -525,9 +543,27 @@ export const alumni = {
       designation: '',
       specialRemarks: 'Researcher in Mazumdar Shaw Center for Translational Research (MSCTR)',
       imgSrc: '../assets/images/people/alumni/chandrashekar.jpg'
-    }
+    },
+    {
+      name: 'Dr. Chidambaram Thamaraiselvan',
+      designation: '',
+      specialRemarks: 'DST Inspire Faculty',
+      imgSrc: '../assets/images/people/current/Chidambaram.jpg'
+    },
+    {
+      name: 'Kumar MP',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: '../assets/images/people/current/Kumar.jpg'
+    },
+    {
+      name: 'Kumaran Gurumurthy',
+      designation: '',
+      specialRemarks: '',
+      imgSrc: '../assets/images/people/img_avatar.png'
+    },
   ],
-  "ME, MS, BS Students": [
+  "ME, MS, BS Student Alumni": [
     {
       name: 'Rama K R',
       designation: '',
@@ -683,6 +719,30 @@ export const alumni = {
       designation: '',
       specialRemarks: '',
       imgSrc: '../assets/images/people/alumni/srisaravana.jpg'
+    },
+    {
+      name: 'Vikram Reddy',
+      designation: '',
+      specialRemarks: 'M.Tech',
+      imgSrc: '../assets/images/people/alumni/VikramReddy.jpg'
+    },
+    {
+      name: 'Tharun Kumar',
+      designation: '',
+      specialRemarks: 'M.Tech',
+      imgSrc: '../assets/images/people/alumni/TharunKumar.jpg'
+    },
+    {
+      name: 'Mahima',
+      designation: '',
+      specialRemarks: 'BS',
+      imgSrc: '../assets/images/people/alumni/Mahima.jpg'
+    },
+    {
+      name: 'Adithya',
+      designation: '',
+      specialRemarks: 'BS',
+      imgSrc: '../assets/images/people/alumni/Adithya.jpg'
     }
   ],
 

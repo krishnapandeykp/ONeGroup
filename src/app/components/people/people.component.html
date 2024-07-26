@@ -19,6 +19,15 @@
           </div>
         </div>
       </div>
+      <div class="card my-3">
+        <div class="card-header">
+          <h4 class="mb-0">May look at:</h4>
+        </div>
+        <div class="card-body" style="overflow: hidden;">
+          <button class="btn btn-success me-md-3 col-7 col-md-5 mb-2" routerLink="/people/coregroup" onclick="window.scrollTo({top :0, behavior: 'smooth'})">Core Group</button>
+          <button class="btn btn-success col-7 col-md-5 mb-2" routerLink="/people/alumni" onclick="window.scrollTo({top :0, behavior: 'smooth'})">Alumni</button>
+        </div>
+      </div>
     </div>
 
     <div class="col-md-8 offset-md-1">
@@ -75,22 +84,21 @@
     <div class="card-header text-white mb-2" style="text-align: center; font-weight: bolder; font-size: larger;">
       {{ key }}
     </div>
-    <div class="card-body1">
-      <div class="d-flex flex-wrap justify-content-start">
-        <div *ngFor="let member of currentData[key]" class="member-card mb-3">
-          <div class="card h-100">
-            <img [src]="member.imgSrc" class="card-img-top p-2" alt="Member Image">
-            <div class="card-body1">
-              <h5 class="card-title p-2">{{ member.name }}</h5>
-              <!-- <p class="card-text"><strong>Designation:</strong> {{ member.designation }}</p> -->
-              <p class="card-text p-2 text-center">{{ member.specialRemarks }}</p>
-            </div>
+    <div class="card-body">
+      <div class="d-flex flex-wrap justify-content-center">
+        <div *ngFor="let member of currentData[key]" class="member-card mb-3 col-md-2"> <img [src]="member.imgSrc" class="card-img-top  img-fluid" alt="Member Image" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title p-1 text-center">{{ member.name }}</h5>
+            <p class="card-text p-1 text-center" style="overflow-wrap: break-word;">{{ member.specialRemarks }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+
 
 
 
