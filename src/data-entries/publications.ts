@@ -15,6 +15,20 @@ export const journals = [
     link: 'https://doi.org/10.26434/chemrxiv-2024-ccdzh'
   },
   {
+    title: 'Exploring Robust Microwave Absorption Properties of Functional Polyvinyl Butyral (PVB) via Facile Cross-linking and Data-driven material discovery  ',
+    authors: 'Chandana Gadadasu, Pritom J. Bora,  Praveen C Ramamurthy,Nagarajan Raghavan',
+    publisherName: 'Applied Materials Today, 39, PP. 102337',
+    year: '2024',
+    link: 'https://doi.org/10.1016/j.apmt.2024.102337'
+  },
+  {
+    title: 'Economic Valuation and characterization of heavy metal Contamination in Dal lake Srinagar, Kashmir, India',
+    authors: 'Siraj Yousuf Parray, Simranjeet Singh, Bhupendra Koul, Nadeem A. Khan, Praveen C. Ramamurthy, Joginder Singh',
+    publisherName: 'Heliyon, PP. e34108',
+    year: '2024',
+    link: 'https://doi.org/10.1016/j.heliyon.2024.e34108'
+  },
+  {
     title: 'Comparison Of Mppt Algorithms For Dc-Dc Boost Converter In Grid-Tied Photovoltaic Systems',
     authors: 'Nabila Shehata,  Ahmed EA Hussien,  Walid SE Abdellatif,  Praveen C Ramamurthy,  Ahmed Emad-Eldeen',
     publisherName: 'Advances in Electrical and Electronic Engineering, 22, 2,  PP. 163-171',

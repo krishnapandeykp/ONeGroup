@@ -459,7 +459,7 @@ export const alumni = {
       imgSrc: '../assets/images/people/current/Varun.jpg'
     },
   ],
-  "Research Associate & Project Associate Alumni": [
+  "Research Associate & Post Docs Alumni": [
     {
       name: 'Dr. Aashish Roy',
       designation: '',
@@ -551,173 +551,191 @@ export const alumni = {
       imgSrc: '../assets/images/people/current/Chidambaram.jpg'
     },
     {
-      name: 'Kumar MP',
+      name: 'Dr. Upendra K. Pandey',
       designation: '',
-      specialRemarks: '',
-      imgSrc: '../assets/images/people/current/Kumar.jpg'
+      specialRemarks: ' DST Inspire Faculty',
+      imgSrc: '../assets/images/people/current/Upendra_Pandey.jpg'
     },
     {
-      name: 'Kumaran Gurumurthy',
+      name: 'Dr. Neha Kanwar Rawat',
       designation: '',
       specialRemarks: '',
-      imgSrc: '../assets/images/people/img_avatar.png'
+      imgSrc: '../assets/images/people/current/NehaRawat.jpg'
     },
+    // {
+    //   name: 'Kumar MP',
+    //   designation: '',
+    //   specialRemarks: '',
+    //   imgSrc: '../assets/images/people/current/Kumar.jpg'
+    // },
+    // {
+    //   name: 'Kumaran Gurumurthy',
+    //   designation: '',
+    //   specialRemarks: '',
+    //   imgSrc: '../assets/images/people/img_avatar.png'
+    // },
   ],
   "ME, MS, BS Student Alumni": [
     {
       name: 'Rama K R',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Monalisa Bai',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Sumeet M Ravishankar',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/sumeet.jpg'
     },
     {
       name: 'Deepak K Mishra',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/deepak.jpg'
     },
     {
       name: 'Avishek Kumar',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/avishek.jpg'
     },
     {
       name: 'Gangineni Pavan Kumar',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/gangineni.jpg'
     },
     {
       name: 'Rishi R Shivhare',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/rishi.jpg'
     },
     {
       name: 'Urvashi Bothra',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/urvasi.jpg'
     },
     {
       name: 'Ayyaluru Tulasi Shashidhar Reddy',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/reddy.jpg'
     },
     {
       name: 'Selva Bala V',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'ME',
       imgSrc: '../assets/images/people/alumni/selva.jpg'
+    },
+    {
+      name: 'Ashutosh Panchal',
+      designation: '',
+      specialRemarks: 'ME',
+      imgSrc: '../assets/images/people/current/AshutoshPanchal.jpg'
     },
     {
       name: 'Sayantan B',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/alumni/sayantan.jpg'
     },
     {
       name: 'Vivek Gupta',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/alumni/vivek.jpg'
     },
     {
       name: 'Nidhin K',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Srinath R',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Akash Singla',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Apurva K Ram',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/alumni/apurva.jpg'
     },
     {
       name: 'Utkarsh Pratiush',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Ojas jain',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/alumni/ojas.jpg'
     },
     {
       name: 'Mukul Sagar',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'MS',
       imgSrc: '../assets/images/people/alumni/mukul.jpg'
     },
     {
       name: 'Abhinav Jain',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'BS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Vivek Gupta',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'BS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Utkarsh Vijay',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'BS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Nitin Mallik',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'BS',
       imgSrc: '../assets/images/people/alumni/mallik.jpg'
     },
     {
       name: 'Kartikay Gaur',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'BS',
       imgSrc: '../assets/images/people/img_avatar.png'
     },
     {
       name: 'Rishab Batra',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'BS',
       imgSrc: '../assets/images/people/alumni/rishab.jpg'
     },
     {
       name: 'Sri Saravana',
       designation: '',
-      specialRemarks: '',
+      specialRemarks: 'BS',
       imgSrc: '../assets/images/people/alumni/srisaravana.jpg'
     },
     {
@@ -733,17 +751,40 @@ export const alumni = {
       imgSrc: '../assets/images/people/alumni/TharunKumar.jpg'
     },
     {
-      name: 'Mahima',
+      name: 'Jithunlal S',
+      designation: '',
+      specialRemarks: 'M.Tech',
+      imgSrc: '../assets/images/people/current/Jithunlal_S.jpg'
+    },
+    {
+      name: 'Deshpande Shatayu Saurabh',
+      designation: '',
+      specialRemarks: 'M.Tech',
+      imgSrc: '../assets/images/people/alumni/Deshpande_Shatayu_Saurabh.jpg'
+    },
+    {
+      name: 'Revgade Sachin Vishram',
+      designation: '',
+      specialRemarks: 'M.Tech',
+      imgSrc: '../assets/images/people/alumni/Revgade_Sachin_Vishram.jpg'
+    },
+    {
+      name: 'Mahima S',
       designation: '',
       specialRemarks: 'BS',
       imgSrc: '../assets/images/people/alumni/Mahima.jpg'
     },
     {
-      name: 'Adithya',
+      name: 'Adithya S',
+      designation: '',
+      specialRemarks: 'BS',
+      imgSrc: '../assets/images/people/alumni/Adithya.jpg'
+    },
+    {
+      name: 'Souptik Dey',
       designation: '',
       specialRemarks: 'BS',
       imgSrc: '../assets/images/people/alumni/Adithya.jpg'
     }
   ],
-
 };
