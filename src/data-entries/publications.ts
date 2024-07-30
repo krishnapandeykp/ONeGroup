@@ -1,19 +1,4 @@
 export const journals = [
-
-  {
-    title: 'Assessing the accurate exchange-correlation functional in van der Waals TMD Materials AB2 (A = Nb,  Ta and B = S,  Se,  Te)',
-    authors: 'Sushant Kumar Behera,  Praveen C Ramamurthy',
-    publisherName: 'ChemRxiv repository',
-    year: '2024',
-    link: 'https://doi.org/10.26434/chemrxiv-2024-xww32'
-  },
-  {
-    title: 'Evaluation performance to assess accurate exchange-correlation functional in van der Waals TMD Materials AB2 (A = Mo,  W and B = S,  Se and Te)',
-    authors: 'Sushant Kumar Behera,  Praveen C Ramamurthy',
-    publisherName: 'ChemRxiv  repository',
-    year: '2024',
-    link: 'https://doi.org/10.26434/chemrxiv-2024-ccdzh'
-  },
   {
     title: 'Exploring Robust Microwave Absorption Properties of Functional Polyvinyl Butyral (PVB) via Facile Cross-linking and Data-driven material discovery  ',
     authors: 'Chandana Gadadasu, Pritom J. Bora,  Praveen C Ramamurthy,Nagarajan Raghavan',

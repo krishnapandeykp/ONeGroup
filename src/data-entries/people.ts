@@ -784,7 +784,7 @@ export const alumni = {
       name: 'Souptik Dey',
       designation: '',
       specialRemarks: 'BS',
-      imgSrc: '../assets/images/people/alumni/Adithya.jpg'
+      imgSrc: '../assets/images/people/alumni/Souptik_Dey.jpg'
     }
   ],
 };
