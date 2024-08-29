@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/",
+    "/gallery",
+    "/media",
+    "/news",
+    "/people/alumni",
+    "/people/coregroup",
+    "/people/mentor",
+    "/publications",
+    "/research"
+  ]
+}
